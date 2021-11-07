@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header {
+    margin: 0 auto;
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+}
+
+header a {
+    color: black;
+    margin-left: 30px;
+}
+
+.image1 img{
+    height: 420px;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#About {
+    margin-top: 70px;
+    margin-bottom: 150px;
+    height: 450px;
+}
+
+.info p {
+    font-size: 15px;
+}
+
+.container p:nth-of-type(2) {
+    margin-top: 70px;
+}
+
+.container p:nth-of-type(5) {
+    margin-bottom: 90px;
+}
+
+#works {
+    margin: 0 auto;
+    height: 400px;
+    width: 960px;
+}
+
+.image2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image2 img {
+    width: 250px;
+    height: 170px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+#News {
+    margin: 0 auto;
+    width: 960px;
+    height: 600px;
+}
+
+dl {
+    line-height: 3em;
+}
+
+dt {
+    float: left;
+    clear: left;
+    width: 90px;
+    margin-right: 40px;
+    border-top: 1px solid #000;
+}
+
+dd {
+    border-top: 1px solid #000;
+    
+}
+
+#Contact {
+    height: 500px;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+#name,#mail,#message {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.btn-contact {
+    margin: 0 auto;
+    width: 23%;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 4px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.btn-contact :hover {
+    cursor: pointer;
+    background-color: rgba(133, 133, 133, 0.7);
+}
+
+
+footer {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        display: initial;
+    }
+    #header-logo, #header-list {
+        text-align: center;
+    }
+
+    .image1 img {
+        width: 600px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0px 15px;
+    }
+
+    .info {
+        line-height: 15px;
+    }
+
+    .image2 {
+        margin: 0 auto;
+        width: 570px;
+    }
+    .image2 img {
+        width: 570px;
+        height: 300px;
+    }
+    
+    tr {
+        width: 100%;
+        display: block;
+        border-bottom: none;
+    }
+
+    th, td {
+        display: flex;
+        justify-content: left;
+    }
+
+
+    }
